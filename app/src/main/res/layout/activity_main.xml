@@ -33,4 +33,10 @@
         android:layout_height="wrap_content"
         android:text="facade" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="adapter" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>
