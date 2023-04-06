@@ -10,7 +10,7 @@ class MP4Player : AdvancedMediaPlayer {
     }
 
     override fun playMP4(fileName: String) {
-        Log.e("AdapterDesignPattern", "MP4 player playMP4: fileName = $fileName")
+        Log.e("AdapterPattern", "MP4 player playMP4: fileName = $fileName")
     }
 
 }

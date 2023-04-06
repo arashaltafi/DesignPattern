@@ -4,15 +4,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.arash.altafi.designpattern.R
 import com.arash.altafi.designpattern.factory.enums.ShapeEnum
-import com.arash.altafi.designpattern.facade.models.Circle
-import com.arash.altafi.designpattern.facade.models.Rectangle
-import com.arash.altafi.designpattern.facade.models.Square
+import com.arash.altafi.designpattern.factory.models.Circle
+import com.arash.altafi.designpattern.factory.models.Rectangle
+import com.arash.altafi.designpattern.factory.models.Square
 
 class FactoryActivity : AppCompatActivity() {
-
-    companion object {
-        const val TAG = "FactoryActivity"
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

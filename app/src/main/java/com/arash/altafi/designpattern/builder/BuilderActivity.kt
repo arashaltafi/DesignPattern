@@ -7,8 +7,8 @@ import com.arash.altafi.designpattern.R
 
 class BuilderActivity : AppCompatActivity() {
 
-    companion object {
-        const val TAG = "BuilderActivity"
+    private companion object {
+        const val TAG = "BuilderPattern"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

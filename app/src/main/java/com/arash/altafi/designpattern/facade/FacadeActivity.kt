@@ -6,10 +6,6 @@ import com.arash.altafi.designpattern.R
 
 class FacadeActivity : AppCompatActivity() {
 
-    companion object {
-        const val TAG = "FacadeActivity"
-    }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_facade)

@@ -6,7 +6,7 @@ import com.arash.altafi.designpattern.adapter.playersInterface.AdvancedMediaPlay
 class MP3Player : AdvancedMediaPlayer {
 
     override fun playMp3(fileName: String) {
-        Log.e("AdapterDesignPattern", "VLCPlayer player playVlc: fileName = $fileName")
+        Log.e("AdapterPattern", "VLCPlayer player playVlc: fileName = $fileName")
     }
 
     override fun playMP4(fileName: String) {

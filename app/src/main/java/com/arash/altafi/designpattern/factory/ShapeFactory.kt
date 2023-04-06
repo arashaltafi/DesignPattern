@@ -1,10 +1,10 @@
 package com.arash.altafi.designpattern.factory
 
 import com.arash.altafi.designpattern.factory.enums.ShapeEnum
-import com.arash.altafi.designpattern.facade.interfaces.Shape
-import com.arash.altafi.designpattern.facade.models.Circle
-import com.arash.altafi.designpattern.facade.models.Rectangle
-import com.arash.altafi.designpattern.facade.models.Square
+import com.arash.altafi.designpattern.factory.interfaces.Shape
+import com.arash.altafi.designpattern.factory.models.Circle
+import com.arash.altafi.designpattern.factory.models.Rectangle
+import com.arash.altafi.designpattern.factory.models.Square
 
 object ShapeFactory {
 

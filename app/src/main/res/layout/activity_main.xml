@@ -39,4 +39,16 @@
         android:layout_height="wrap_content"
         android:text="adapter" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnVisitor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="visitor" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnStrategy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="strategy" />
+
 </androidx.appcompat.widget.LinearLayoutCompat>
